@@ -737,9 +737,10 @@ ul  { list-style: none; }
 .hat-feature-img img {
   width: 100%;
   aspect-ratio: 1;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: var(--radius);
-  background-color: rgba(233,30,140,0.1);
+  background-color: #fff;
+  padding: 1rem;
 }
 
 /* Interests grid */
