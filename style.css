@@ -20,6 +20,18 @@
 
 /* === RESET === */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:focus-visible {
+  outline: 3px solid var(--charcoal);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+.navbar :focus-visible,
+.section-contact :focus-visible,
+#hero :focus-visible {
+  outline-color: #fff;
+}
+.btn:focus-visible,
+.contact-link:focus-visible { border-radius: 50px; }
 html {
   scroll-behavior: smooth;
   scroll-padding-top: var(--nav-height);
@@ -260,7 +272,7 @@ ul  { list-style: none; }
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--gold);
+  color: rgba(255,255,255,0.9);
   margin-bottom: 1rem;
 }
 
@@ -289,8 +301,8 @@ ul  { list-style: none; }
   line-height: 1.85;
 }
 .hero-tagline em {
-  color: var(--gold);
-  font-style: normal;
+  color: #fff;
+  font-style: italic;
   font-weight: 500;
 }
 
@@ -459,7 +471,7 @@ ul  { list-style: none; }
   font-family: var(--font-heading);
   font-size: 1rem;
   font-weight: 700;
-  color: var(--teal);
+  color: #007a65;
   margin-bottom: 0.4rem;
 }
 .publications-placeholder p { color: #666; font-size: 0.92rem; }
