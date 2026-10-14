@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malaika Wanjihia</title>
+  <meta name="description" content="PhD Student in Human-Centered Computing at UMBC and Electrical Engineer at JHU Applied Physics Laboratory.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a class="nav-logo" href="#hero">MW</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#leadership">Leadership</a></li>
+        <li><a href="#personal">Beyond the Lab</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="hero" class="hero pattern-hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="hero-eyebrow">Human-Centered Computing · AI · Engineering</p>
+        <h1 class="hero-name">Malaika Wanjihia</h1>
+        <p class="hero-title">PhD Student · Human-Centered Computing @ UMBC</p>
+        <p class="hero-title">Electrical Engineer · JHU Applied Physics Laboratory</p>
+        <p class="hero-tagline">Studying how people trust, use, and maintain agency with AI — so that technology works <em>for</em> everyone.</p>
+        <div class="hero-actions">
+          <a href="#research" class="btn btn-primary">My Research</a>
+          <a href="#contact"  class="btn btn-outline">Say Hello</a>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <img src="assets/images/portrait.png" alt="Malaika Wanjihia smiling" class="hero-photo">
+      </div>
+    </div>
+  </section>
+  <section id="about" class="section-about">
+    <div class="container about-inner">
+      <div class="about-photo-wrap">
+        <img src="assets/images/equator-kenya.jpg" alt="Malaika standing at the equator in Kenya" class="about-photo">
+        <div class="about-photo-caption">On the equator — Kenya</div>
+      </div>
+      <div class="about-content">
+        <p class="section-label" style="color: var(--blue);">About Me</p>
+        <h2 class="section-heading">Engineer. Researcher. Kenyan.</h2>
+        <p>I'm a PhD student in Human-Centered Computing at UMBC and an Electrical Engineer at the Johns Hopkins University Applied Physics Laboratory. Originally from Kenya, I'm driven by one question: how can AI systems truly serve everyone — especially those with the most to gain and the most to lose?</p>
+        <p>My research lives at the intersection of technology, trust, and human dignity — examining how vulnerable populations calibrate trust in AI, and how data workers who power humanoid robotic systems experience privacy and physical impact along the way.</p>
+        <p>Outside the lab, I run a hat business, jump out of planes, chase new food experiences around the world, and mentor the next generation of engineers and researchers.</p>
+        <div class="about-badges">
+          <span class="badge badge-blue">PhD · UMBC</span>
+          <span class="badge badge-coral">MS · Johns Hopkins</span>
+          <span class="badge badge-teal">BS · Morgan State</span>
+          <span class="badge badge-gold">JHU APL Engineer</span>
+          <span class="badge badge-outline">Top Secret Clearance</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="pattern-divider" aria-hidden="true"></div>
+  <section id="research" class="section-research pattern-dots">
+    <div class="container">
+      <p class="section-label" style="color: var(--teal);">Research</p>
+      <h2 class="section-heading">Understanding People in the Age of AI</h2>
+      <p class="section-intro">My work examines the human side of artificial intelligence — how people develop trust, maintain agency, and experience the costs of the systems that shape their lives.</p>
+
+      <div class="research-grid">
+        <div class="research-card card-accent-top">
+          <div class="research-card-body">
+            <span class="research-tag">PhD Research · UMBC</span>
+            <h3>Trust Calibration in LLMs Among Vulnerable Populations</h3>
+            <p>How do people with limited AI literacy — older adults, those with lower digital access, non-English speakers — decide how much to trust large language models? I investigate how these groups calibrate trust, how they use AI to their benefit, and what factors preserve or erode their agency and autonomy in human-AI interactions.</p>
+          </div>
+        </div>
+        <div class="research-card card-accent-top">
+          <div class="research-card-body">
+            <span class="research-tag">Current Project · UMBC</span>
+            <h3>Privacy and Physical Impacts of Humanoid Robotic Data Work</h3>
+            <p>The development of humanoid robots depends on human data workers who annotate, label, and generate training data — often in conditions that carry real privacy and physical costs. This project examines those experiences and what they reveal about the hidden human labor behind AI systems.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="publications-placeholder">
+        <h3>Publications &amp; Presentations</h3>
+        <p>Coming soon — watch this space as research progresses.</p>
+      </div>
+    </div>
+  </section>
+  <div class="pattern-divider" aria-hidden="true"></div>
+  <section id="experience" class="section-experience">
+    <div class="container">
+      <p class="section-label" style="color: var(--coral);">Experience</p>
+      <h2 class="section-heading">Where I've Built Things</h2>
+
+      <div class="employer-block">
+        <div class="employer-header">
+          <h3 class="employer-name">Johns Hopkins Applied Physics Laboratory</h3>
+          <p class="employer-meta">Electrical Engineer · January 2021 – Present · Laurel, MD</p>
+        </div>
+        <div class="project-cards">
+          <div class="project-card card-accent-top">
+            <h4>HAYSTAC — Metrics &amp; Evaluation</h4>
+            <p>Led anomaly-detection evaluation metrics and automated Python scoring pipelines, enabling repeatable performer assessment and novel pattern-of-life analysis using AWS S3.</p>
+          </div>
+          <div class="project-card card-accent-top">
+            <h4>Athena.AI — Agentic AI &amp; LLM Observability</h4>
+            <p>Prototyped Langfuse and OpenTelemetry integration for an LLM Agent Orchestrator; developed Figma wireframes and briefed sponsors on observability architecture and AI transparency.</p>
+          </div>
+          <div class="project-card card-accent-top">
+            <h4>Proof Positive — Intelligence Analysis</h4>
+            <p>Led full-stack development of an AI conflict-detection tool using RAG and knowledge graphs; applied agentic workflows across UI, back-end services, and Docker deployment.</p>
+          </div>
+          <div class="project-card card-accent-top">
+            <h4>DoD Health Analytics</h4>
+            <p>Applied unsupervised ML and topic modeling to clinical data for novel health threat detection; facilitated sponsor briefings and built human-centered traceability frameworks.</p>
+          </div>
+          <div class="project-card card-accent-top">
+            <h4>Public Health Disaster Response Tool</h4>
+            <p>Built data pipelines for civilian medical datasets; explored LLM integration for data discovery to support an operational public-health dashboard.</p>
+          </div>
+          <div class="project-card card-accent-top">
+            <h4>Unified Network Operations (UNO)</h4>
+            <p>Developed an MBSE framework in Cameo capturing hundreds of requirements; authored UI requirements and facilitated soldier touch-point engagements with sponsors.</p>
+          </div>
+          <div class="project-card card-accent-top">
+            <h4>Cross-Medium Communications R&amp;D</h4>
+            <p>Led a team of five on FMCW radar R&amp;D; managed budgets, coordinated hardware development, and prepared research proposals.</p>
+          </div>
+          <div class="project-card card-accent-top">
+            <h4>Miniature Devices with Advanced RF Capabilities</h4>
+            <p>Designed PCBs in Altium; developed automated acceptance tests and led test and debug efforts for multiple RF and embedded systems.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="employer-block">
+        <div class="employer-header">
+          <h3 class="employer-name">Lockheed Martin</h3>
+          <p class="employer-meta">Engineering Roles · 2018 – 2021</p>
+        </div>
+        <div class="project-cards">
+          <div class="project-card card-accent-top">
+            <h4>Hypersonics &amp; F-35 Joint Strike Fighter Programs</h4>
+            <p>FPGA design in VHDL/SystemVerilog, interface verification (SPI/UART/IMU), automated testing, functional coverage analysis, and simulation across hypersonic missile and F-35 programs.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-block">
+        <h3 class="skills-heading">Technical Skills</h3>
+        <div class="skills-group">
+          <span class="skills-label">AI / ML</span>
+          <div class="skill-chips">
+            <span class="chip chip-teal">LLM Integration</span>
+            <span class="chip chip-teal">RAG</span>
+            <span class="chip chip-teal">Knowledge Graphs</span>
+            <span class="chip chip-teal">Agentic AI</span>
+            <span class="chip chip-teal">Topic Modeling</span>
+            <span class="chip chip-teal">Anomaly Detection</span>
+            <span class="chip chip-teal">Langfuse</span>
+            <span class="chip chip-teal">OpenTelemetry</span>
+          </div>
+        </div>
+        <div class="skills-group">
+          <span class="skills-label">Engineering &amp; Data</span>
+          <div class="skill-chips">
+            <span class="chip chip-coral">Python</span>
+            <span class="chip chip-coral">Data Pipelines</span>
+            <span class="chip chip-coral">AWS S3</span>
+            <span class="chip chip-coral">MBSE (Cameo)</span>
+            <span class="chip chip-coral">PCB Design (Altium)</span>
+            <span class="chip chip-coral">FPGA (VHDL)</span>
+            <span class="chip chip-coral">RF Test &amp; Measurement</span>
+          </div>
+        </div>
+        <div class="skills-group">
+          <span class="skills-label">Design &amp; Research</span>
+          <div class="skill-chips">
+            <span class="chip chip-blue">Figma</span>
+            <span class="chip chip-blue">Human-Centered Design</span>
+            <span class="chip chip-blue">User Research</span>
+            <span class="chip chip-blue">Requirements Engineering</span>
+            <span class="chip chip-blue">Prompt Engineering</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="education-block">
+        <h3 class="skills-heading">Education</h3>
+        <div class="education-timeline">
+          <div class="edu-item">
+            <div class="edu-dot" style="background: var(--blue);"></div>
+            <div>
+              <h4>Doctor of Philosophy — Human-Centered Computing</h4>
+              <p>University of Maryland, Baltimore County (UMBC) · In Progress</p>
+            </div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-dot" style="background: var(--coral);"></div>
+            <div>
+              <h4>Master of Science — Electrical &amp; Computer Engineering · GPA 3.8</h4>
+              <p>Johns Hopkins University · May 2023</p>
+            </div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-dot" style="background: var(--teal);"></div>
+            <div>
+              <h4>Bachelor of Science — Electrical Engineering · GPA 3.9</h4>
+              <p>Morgan State University · December 2020</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="pattern-divider" aria-hidden="true"></div>
+  <section id="leadership" class="section-leadership pattern-triangles">
+    <div class="container">
+      <p class="section-label" style="color: #b8920a;">Leadership &amp; Service</p>
+      <h2 class="section-heading">Giving Back, Building Up</h2>
+      <p class="section-intro">Community and mentorship aren't extracurriculars to me — they're core to how I show up in every space I occupy.</p>
+
+      <div class="leadership-grid">
+        <div class="leadership-card">
+          <div class="leadership-icon">🎓</div>
+          <h3>BRIDGE Mentoring Program Chair</h3>
+          <p>Developed and led a mentoring program with 25 mentors and 25 mentees per cycle; managed a team of 10 staff; 40% of student participants received summer internship offers. Co-coordinated with Morgan State University leadership.</p>
+        </div>
+        <div class="leadership-card">
+          <div class="leadership-icon">✊</div>
+          <h3>Black Faculty &amp; Staff Association Caucus Chair</h3>
+          <p>Led the BFSA APL Caucus; partnered with APL and JHU leadership; planned and facilitated events with 80+ attendees; coordinated speakers, managed budgets, and handled cross-lab coordination.</p>
+        </div>
+        <div class="leadership-card">
+          <div class="leadership-icon">🔬</div>
+          <h3>Instrument Coordinator</h3>
+          <p>Serviced three groups with 180 staff, ensuring calibration and availability of 50+ essential electronics instruments for RF device testing and development across teams.</p>
+        </div>
+        <div class="leadership-card">
+          <div class="leadership-icon">🌱</div>
+          <h3>Mentor &amp; Community Builder</h3>
+          <p>Mentored students and interns at every stage of their journeys; supported community-building initiatives through programs focused on belonging, professional development, and representation in STEM.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="pattern-divider" aria-hidden="true"></div>
+  <section id="personal" class="section-personal">
+    <div class="container">
+      <p class="section-label" style="color: var(--magenta);">Beyond the Lab</p>
+      <h2 class="section-heading">Life Outside Research</h2>
+      <p class="section-intro">A researcher is only as interesting as the life they bring to the work. Here's mine.</p>
+
+      <div class="personal-grid">
+        <div class="personal-photo-card">
+          <img src="assets/images/skydiving.jpg" alt="Malaika skydiving" loading="lazy">
+          <div class="photo-caption">Skydiving — because why not?</div>
+        </div>
+        <div class="personal-photo-card">
+          <img src="assets/images/hat.jpg" alt="Malaika wearing one of her hats" loading="lazy">
+          <div class="photo-caption">Wearing one of my own creations</div>
+        </div>
+        <div class="personal-photo-card">
+          <img src="assets/images/cheetah-baby.jpg" alt="Baby Malaika with a cheetah in Kenya" loading="lazy">
+          <div class="photo-caption">Baby me with a cheetah in Kenya 🐆</div>
+        </div>
+        <div class="personal-photo-card">
+          <img src="assets/images/equator-kenya.jpg" alt="Malaika on the equator in Kenya" loading="lazy">
+          <div class="photo-caption">Straddling hemispheres — equator, Kenya</div>
+        </div>
+      </div>
+
+      <div class="hat-feature-card">
+        <div class="hat-feature-text">
+          <p class="section-label" style="color: var(--magenta);">Side Hustle</p>
+          <h3>Malaika's Hats</h3>
+          <p>I design and sell handcrafted hats through my Etsy shop. Whether it's a bold statement piece or an everyday wear, each hat is made with care and a whole lot of personality.</p>
+          <a href="https://www.etsy.com/shop/MalaikasHats" target="_blank" rel="noopener noreferrer" class="btn btn-magenta">Shop Malaika's Hats →</a>
+        </div>
+        <div class="hat-feature-img">
+          <img src="assets/images/hat.jpg" alt="One of Malaika's handcrafted hats" loading="lazy">
+        </div>
+      </div>
+
+      <div class="interests-grid">
+        <div class="interest-item">
+          <span class="interest-icon">✈️</span>
+          <h4>World Traveler</h4>
+          <p>Kenya is home, but the whole world is on my itinerary.</p>
+        </div>
+        <div class="interest-item">
+          <span class="interest-icon">🍜</span>
+          <h4>Food Explorer</h4>
+          <p>New city, new restaurant, always. Food is how I explore culture.</p>
+        </div>
+        <div class="interest-item">
+          <span class="interest-icon">🪂</span>
+          <h4>Adrenaline Junkie</h4>
+          <p>Skydiving, thrill-seeking — if it gets the heart going, I'm in.</p>
+        </div>
+        <div class="interest-item">
+          <span class="interest-icon">🤝</span>
+          <h4>Community First</h4>
+          <p>Volunteering and service aren't things I do — they're part of who I am.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="pattern-divider" aria-hidden="true"></div>
+  <section id="contact" class="section-contact pattern-hero">
+    <div class="container contact-inner">
+      <p class="section-label" style="color: var(--gold);">Contact</p>
+      <h2 class="section-heading" style="color: #fff;">Let's Connect</h2>
+      <p class="contact-sub">Whether you want to talk research, collaboration, mentorship, or hats — my inbox is open.</p>
+      <div class="contact-links">
+        <a href="mailto:wanjihiam16@gmail.com" class="contact-link">
+          <span class="contact-icon">✉️</span>
+          <span>wanjihiam16@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/malaika-wanjihia-302a06141/" target="_blank" rel="noopener noreferrer" class="contact-link">
+          <span class="contact-icon">💼</span>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://www.etsy.com/shop/MalaikasHats" target="_blank" rel="noopener noreferrer" class="contact-link">
+          <span class="contact-icon">🎩</span>
+          <span>Malaika's Hats on Etsy</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer pattern-hero">
+    <div class="container footer-inner">
+      <span class="footer-name">Malaika Wanjihia</span>
+      <span class="footer-copy">Built with ♥ · © 2026</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
